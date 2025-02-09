@@ -32,7 +32,7 @@ class Formatter {
             switch (order[i]) {
                 case 'd': result.append("dd"); break;
                 case 'M': result.append("MM"); break;
-                case 'y': result.append("yy"); break;
+                case 'y': result.append("yyyy"); break;
             }
         }
         return result.append("\u2006").toString();
